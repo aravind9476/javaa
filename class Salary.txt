@@ -1,0 +1,19 @@
+class Salary 
+{
+ 	public static void main(String[] args)
+	{
+		String empname="aravind";
+		int empid=rasamadk;
+		int workingdays=22;
+		int absentdays=12;
+		int dailywages=874;
+		int empworkingdays=workingdays-absentdays;
+		int empsalary=empworkingdays*dailywages;
+		System.out.println("employeename="+empname);
+		System.out.println("employeeid="+empid);
+		System.out.println("dailywages="+dailywages);
+		System.out.println("empworkingdays="+empworkingdays);
+		System.out.println("empsalary="+empsalary);
+	}
+}
+		
