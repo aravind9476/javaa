@@ -2,7 +2,7 @@ class Activity
 {
 	public static void main(String[] args)
 	{
-		String Activity;
+		String Activity="";
 		String day="";
 		
 		if(day=="sunday")
@@ -20,8 +20,7 @@ class Activity
 		else if(day=="saturday")
 			Activity="yet to enjoy";
 		else
-			Activity="Mention D
-ay";
+			Activity="Mention Day";
 		System.out.println(Activity);
 	}
 }
